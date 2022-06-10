@@ -1,5 +1,8 @@
 .container{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+}
+.container .shoes{
+    margin-top: 80px;
 }
 .soft-bg{
     background-color: #fceae8;
@@ -18,4 +21,42 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cetagories h1{
+    color: white;
+}
+.cetagories img{
+    width: 120 px;
+}
+.cat1{
+    background-image: linear-gradient(to left, #ff9966 0%,#f12711 100%);
+}
+.cat2{
+    background-image: linear-gradient(to left, #FF0099 0%,#8A2387 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, #8E2DE2 0%,#4A00E0 100%);
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.subscribe{
+    height: 300px;
+}
+.subscribe button{
+    margin-top: 10px;
+}
+.footer-part{
+    background-color: #ffffff;
 }
